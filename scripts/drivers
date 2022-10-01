@@ -9,7 +9,7 @@
 echo
 tput setaf 4
 echo "###############################################################################"
-echo "#                    XeroLinux Arch/AUR Package Installer                     #"
+echo "#                         XeroLinux Driver Installer                          #"
 echo "###############################################################################"
 tput sgr0
 echo
