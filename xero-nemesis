@@ -1,7 +1,7 @@
 #!/bin/bash
-yad --title "XeroLinux Nemesis Tool" --form --columns=3 --width=540 --height=190 --text="My Nemesis tool for installing Apps n Drivers, for my (x570/Ryzen5) system." --image=$HOME/xero.png  \
+yad --title "XeroLinux Nemesis Tool" --form --columns=3 --width=540 --height=190 --text="My Nemesis tool for installing Apps n Drivers, for my systems." --image=$HOME/xero.png  \
 --field="<b>Update System Now</b>":fbtn "konsole --noclose -e sh './scripts/sysupd'" \
---field="<b>Install Those Arch Pkgs...</b>":fbtn "konsole --noclose -e sh './scripts/arch'" \
+--field="<b>Install Them Arch/AUR Pkgs</b>":fbtn "konsole --noclose -e sh './scripts/arch'" \
 --field="<b>Install Them Drivers Boy..</b>":fbtn "konsole --noclose -e sh './scripts/drivers'" \
 --field="<b>Install Oh Those Flatpaks.</b>":fbtn "konsole --noclose -e sh './scripts/flatpakz'" \
 --button=Exit:1
