@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo pacman -S --noconfirm --needed droidcam spotify-adblock kwave timeshift sublime-text-4 freedownloadmanager hugo ventoy-bin vivaldi vivaldi-ffmpeg-codecs nomachine teamviewer wallpaper-engine-plasma xscreensaver system-monitoring-center bash-pipes cmatrix tty-clock-git wttr caffeine-ng kdenlive simplescreenrecorder yt-dlp solaar wine-meta virt-manager-meta gparted && reboot
