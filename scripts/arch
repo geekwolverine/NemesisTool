@@ -15,7 +15,7 @@ tput sgr0
 echo
 echo "Select Packages To Install"
 echo
-echo "########## GPU Drivers/Tools ##########"
+echo "########## Packages/Tools ##########"
 echo
 echo "1.  Install My Arch Packages"
 echo "2.  Install My AUR Packages"
@@ -36,7 +36,7 @@ case $CHOICE in
       echo "               Arch Packages              "
       echo "##########################################"
 			sleep 3
-			sudo pacman -S --noconfirm --needed droidcam spotify-adblock kwave timeshift sublime-text-4 freedownloadmanager hugo ventoy-bin vivaldi vivaldi-ffmpeg-codecs nomachine teamviewer wallpaper-engine-plasma xscreensaver system-monitoring-center bash-pipes cmatrix tty-clock-git wttr caffeine-ng kdenlive simplescreenrecorder yt-dlp solaar wine-meta virt-manager-meta gparted
+			sudo pacman -S --needed droidcam spotify-adblock kwave timeshift sublime-text-4 freedownloadmanager hugo ventoy-bin vivaldi vivaldi-ffmpeg-codecs nomachine teamviewer wallpaper-engine-plasma xscreensaver system-monitoring-center bash-pipes cmatrix tty-clock-git wttr caffeine-ng kdenlive simplescreenrecorder yt-dlp solaar wine-meta virt-manager-meta gparted
 			sleep 3
       echo "#######################################"
       echo "                 Done !                "
